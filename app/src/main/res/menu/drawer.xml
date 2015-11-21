@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/navigation_past_reminders"
+            android:checked="true"
+            android:title="Past Reminders"/>
+        <!--android:icon="@drawable/ic_android"-->
+
+        <item
+            android:id="@+id/navigation_item_howItWorks"
+            android:title="How It Works"/>
+
+        <!--android:icon="@drawable/ic_android"-->
+
+        <item
+            android:id="@+id/navigation_item_contactUs"
+            android:title="Contact Us"/>
+
+        <item
+            android:id="@+id/navigation_item_settings"
+            android:title="Settings"/>
+    </group>
+</menu>

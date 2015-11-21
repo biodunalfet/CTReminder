@@ -1,0 +1,36 @@
+Reminders for every occasion! Call Reminder provides a fast and convenient way to schedule reminders for virtually any occasion. Great for professionals or anyone else needing
+a little more organization in their busy schedule.
+
+Call Reminders
+- Quick creation of callback reminder after each phone call
+- After-call window provides options for quickly creating a reminder, call note, or calendar event.
+- Reminder notes shown on call screen during calls with that specific contact
+- Create call reminder from call log
+- Option for automatic creation of call reminder for all calls or missed calls only
+- Auto-complete text box for selecting contact during reminder creation, just start typing and results are filtered based on what you type
+- Add repeating alerts to each reminder
+- Add reminder to device calendar
+- Choose different ringtone for each reminder
+
+Miscellaneous Reminders
+- General purpose reminders for any occasion (meetings, grocery, laundry, etc.)
+- Add repeating alerts to each reminder
+- Add reminder to device calendar
+- Choose different ringtone for each reminder
+
+SMS Reminders
+- Schedule SMS messages to be sent automatically
+- Add confirmation prompt at scheduled time of sending or choose to have SMS sent automatically without user intervention.
+- Schedule repeating SMS reminders
+
+Call Notes
+- Create call notes for any contact that will be displayed on call screen during all calls with that contact
+- Full customization of call note text, background, etc.
+
+Features
+- Option for persistent notifications that require user intervention before dismissing
+- Choose how long reminders remain in database after expiration
+- Option for 24-hour time format
+- Calendar Integration (Android 4.0+)
+- Multiple font options
+- New features coming!

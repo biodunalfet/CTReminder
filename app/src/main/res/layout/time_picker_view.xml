@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="TIMING DETAILS."
+        android:id="@+id/timing_header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/timing_descriptive_text"
+        android:layout_below="@+id/timing_header"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="10sp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:text="When do you want us to remind you"/>
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:id="@+id/timePicker"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/timing_descriptive_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="12:54pm January 21, 2015"
+        android:textColor="#000"
+        android:id="@+id/textView_full_timing"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"/>
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:layout_marginLeft="23dp"
+        android:id="@+id/datePicker"
+        android:layout_above="@id/textView_full_timing"
+        android:layout_below="@+id/timePicker"
+        android:layout_marginTop="5dp" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/button3"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/button4"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Pending Reminders"-->
+        <!--android:textSize="25sp"-->
+        <!--android:textColor="#D4D4D4"-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/test_listview"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:tag="FloatingButtonCall"
+        app:elevation="4dp"
+        app:backgroundTint="#000000"
+        android:src="@drawable/call"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:tag="FloatingButtonText"
+        app:elevation="4dp"
+        app:backgroundTint="#000000"
+        android:src="@drawable/msg"
+        android:padding="10dp"
+        android:layout_marginBottom="-5dp"
+        android:scaleType="centerInside"
+        android:layout_above="@+id/call"
+        android:layout_alignLeft="@+id/call"
+        android:layout_alignStart="@+id/call" />
+</RelativeLayout>
